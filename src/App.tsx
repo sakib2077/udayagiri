@@ -101,67 +101,67 @@ const content = {
 
 const galleryImages = [
   {
-    url: "https://resonancemedia.co.in/wp-content/uploads/2025/02/2-Ranigumpha-Udayagiri-scaled.jpg",
+    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/2-Ranigumpha-Udayagiri-scaled.jpg",
     title: "Ranigumpha Udayagiri",
     description: "The architectural marvel of the entire complex"
   },
   {
-    url: "https://resonancemedia.co.in/wp-content/uploads/2025/02/4-Baghgumpha-Udayagiri.jpg",
+    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/4-Baghgumpha-Udayagiri.jpg",
     title: "Baghgumpha Udayagiri",
     description: "Cave with opening carved like a tiger's head"
   },
   {
-    url: "https://resonancemedia.co.in/wp-content/uploads/2025/02/5-Landscape-Scene-Ranigumpha.jpg",
+    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/5-Landscape-Scene-Ranigumpha.jpg",
     title: "Landscape Scene Ranigumpha",
     description: "Detailed landscape carvings from Rani Gumpha"
   },
   {
-    url: "https://resonancemedia.co.in/wp-content/uploads/2025/02/7-A-Female-Dancer-Ranigumpha.jpg",
+    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/7-A-Female-Dancer-Ranigumpha.jpg",
     title: "Female Dancer Ranigumpha",
     description: "Ancient carving depicting a dance performance"
   },
   {
-    url: "https://resonancemedia.co.in/wp-content/uploads/2025/02/8-Manchapuri-and-svargapuri-Caves-Udayagiri-scaled.jpg",
+    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/8-Manchapuri-and-svargapuri-Caves-Udayagiri-scaled.jpg",
     title: "Manchapuri and Svargapuri Caves",
     description: "Double-storied cave with historical inscriptions"
   },
   {
-    url: "https://resonancemedia.co.in/wp-content/uploads/2025/02/9-Landscape-Scene-Ranigumpha.jpg",
+    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/9-Landscape-Scene-Ranigumpha.jpg",
     title: "Landscape Scene",
     description: "Intricate landscape carving showing historical scenes"
   },
   {
-    url: "https://resonancemedia.co.in/wp-content/uploads/2025/02/13-Gajalakshmi-Anantagumpha-Khandagiri.jpg",
+    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/13-Gajalakshmi-Anantagumpha-Khandagiri.jpg",
     title: "Gajalakshmi Anantagumpha",
     description: "Sculptural detail from Ananta Gumpha, Khandagiri"
   },
   {
-    url: "https://resonancemedia.co.in/wp-content/uploads/2025/02/14-Risabhanath-and-Amra-scaled.jpg",
+    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/14-Risabhanath-and-Amra-scaled.jpg",
     title: "Risabhanath and Amra",
     description: "Religious sculpture depicting Jain figures"
   },
   {
-    url: "https://resonancemedia.co.in/wp-content/uploads/2025/02/Panel-1-scaled.jpg",
+    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-1-scaled.jpg",
     title: "Historical Panel 1",
     description: "Detailed panel showing historical scenes"
   },
   {
-    url: "https://resonancemedia.co.in/wp-content/uploads/2025/02/Panel-2-scaled.jpg",
+    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-2-scaled.jpg",
     title: "Historical Panel 2",
     description: "Ancient carved panel with historical significance"
   },
   {
-    url: "https://resonancemedia.co.in/wp-content/uploads/2025/02/Panel-3-scaled.jpg",
+    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-3-scaled.jpg",
     title: "Historical Panel 3",
     description: "Intricate carvings depicting historical events"
   },
   {
-    url: "https://resonancemedia.co.in/wp-content/uploads/2025/02/Panel-4-scaled.jpg",
+    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-4-scaled.jpg",
     title: "Historical Panel 4",
     description: "Detailed relief work showing historical scenes"
   },
   {
-    url: "https://resonancemedia.co.in/wp-content/uploads/2025/02/Panel-5-scaled.jpg",
+    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-5-scaled.jpg",
     title: "Historical Panel 5",
     description: "Ancient panel with historical carvings"
   }
@@ -262,7 +262,7 @@ function App() {
       <div 
         className="h-screen relative bg-cover bg-center"
         style={{
-          backgroundImage: 'url("https://resonancemedia.co.in/wp-content/uploads/2025/02/2-Ranigumpha-Udayagiri-scaled.jpg")',
+          backgroundImage: 'url("https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/2-Ranigumpha-Udayagiri-scaled.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-black/50" />
@@ -284,6 +284,28 @@ function App() {
 
       {/* Main Content */}
       <div id="main-content" className="max-w-7xl mx-auto px-4 py-16">
+        {/* Video Section */}
+        <div className="mb-16">
+          <h2 className="text-2xl font-bold mb-6 text-center">Explore Udayagiri</h2>
+          <div className="flex justify-center">
+            <div className="w-full max-w-3xl">
+              <div className="relative pb-[56.25%] h-0">
+                <iframe 
+                  className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+                  width="560" 
+                  height="315" 
+                  src="https://www.youtube.com/embed/3pYA1s60Yoc?si=oaBD1p40PLsneWtZ" 
+                  title="YouTube video player" 
+                  frameBorder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerPolicy="strict-origin-when-cross-origin" 
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        
         {/* Quick Info */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div className="bg-white p-6 rounded-lg shadow-md">
