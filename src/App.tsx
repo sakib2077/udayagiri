@@ -33,7 +33,8 @@ const content = {
         title: "Notable Features",
         description: "Ancient inscriptions, sculptures, and rock cut architecture"
       }
-    }
+    },
+    video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/nrB9js74WNM?si=FCWM7p3DcXh6mPq5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   hi: {
     title: "उदयगिरि और खंडगिरि गुफाएं",
@@ -64,7 +65,8 @@ const content = {
         title: "उल्लेखनीय विशेषताएं",
         description: "प्राचीन शिलालेख, मूर्तियां और चट्टान कट वास्तुकला"
       }
-    }
+    },
+    'video': '<iframe width="560" height="315" src="https://www.youtube.com/embed/jcoZuXbNceU?si=VkA8cuZvZDHyi00j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   od: {
     title: "ଉଦୟଗିରି ଏବଂ ଖଣ୍ଡଗିରି ଗୁମ୍ଫା",
@@ -95,7 +97,8 @@ const content = {
         title: "ଉଲ୍ଲେଖନୀୟ ବିଶେଷତା",
         description: "ପ୍ରାଚୀନ ଶିଳାଲେଖ, ମୂର୍ତ୍ତି ଏବଂ ଶିଳା କଟ ସ୍ଥାପତ୍ୟ"
       }
-    }
+    },
+    'video': '<iframe width="560" height="315" src="https://www.youtube.com/embed/0fhk4ffiugE?si=_YRzK87y7fG_Z47W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   }
 };
 
@@ -289,18 +292,7 @@ function App() {
           <h2 className="text-2xl font-bold mb-6 text-center">Explore Udayagiri</h2>
           <div className="flex justify-center">
             <div className="w-full max-w-3xl">
-              <div className="relative pb-[56.25%] h-0">
-                <iframe 
-                  className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
-                  width="560" 
-                  height="315" 
-                  src="https://www.youtube.com/embed/3pYA1s60Yoc?si=oaBD1p40PLsneWtZ" 
-                  title="YouTube video player" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerPolicy="strict-origin-when-cross-origin" 
-                  allowFullScreen
-                ></iframe>
+              <div className="relative pb-[56.25%] h-0" dangerouslySetInnerHTML={{ __html: currentContent.video}}>      
               </div>
             </div>
           </div>
