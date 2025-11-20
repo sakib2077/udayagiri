@@ -98,7 +98,7 @@ const content = {
         description: "ପ୍ରାଚୀନ ଶିଳାଲେଖ, ମୂର୍ତ୍ତି ଏବଂ ଶିଳା କଟ ସ୍ଥାପତ୍ୟ"
       }
     },
-    'video': '<iframe width="560" height="315" src="https://www.youtube.com/embed/0fhk4ffiugE?si=_YRzK87y7fG_Z47W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    'video': '<iframe width="560" height="315" src="https://www.youtube.com/embed/q_XnS_1G1vc?si=eJ2YvRM6SdJfX0Hi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   }
 };
 
