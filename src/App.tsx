@@ -34,6 +34,24 @@ const content = {
         description: "Ancient inscriptions, sculptures, and rock cut architecture"
       }
     },
+    notableCavesTitle: "Notable Caves:",
+    hathiGumphaTitle: "Hathi Gumpha (Cave No. 14)",
+    hathiGumphaDesc: "The most important cave featuring prehistoric rock paintings and the famous 17-line royal inscription about King Kharavela's expeditions.",
+    raniGumphaTitle: "Rani Gumpha (Cave No. 1)",
+    raniGumphaDesc: "A double-storied monastery with elaborate friezes depicting various scenes including royal processions, hunting expeditions, and dance performances.",
+    ganesaGumphaTitle: "Ganesa Gumpha (Cave No. 10)",
+    ganesaGumphaDesc: "Features relief images and an 8th-century inscription, with scenes depicting the story of Udayana and Vasavadatta.",
+    allCavesTitle: "All Caves:",
+    anantaGumphaTitle: "Ananta Gumpha (Cave No. 3)",
+    anantaGumphaDesc: "Known for its rich ornamentations, twin serpent figures, and sculptural features including Jain auspicious symbols.",
+    cave8Title: "Cave No. 8",
+    cave8Desc: "Contains figures of all 24 Tirthankaras and their Sasanadevis, with unique twelve-armed figures of Chakreshvari and Rohini.",
+    referencesTitle: "References",
+    visitInfoTitle: "Visit Information",
+    asiTitle: "Archaeological Survey of India",
+    locationTitle: "Location",
+    exploreTitle: "Explore Udayagiri",
+    galleryTitle: "Gallery",
     video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/nrB9js74WNM?si=FCWM7p3DcXh6mPq5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   hi: {
@@ -66,6 +84,24 @@ const content = {
         description: "प्राचीन शिलालेख, मूर्तियां और चट्टान कट वास्तुकला"
       }
     },
+    notableCavesTitle: "उल्लेखनीय गुफाएं:",
+    hathiGumphaTitle: "हाथी गुम्फा (गुफा संख्या 14)",
+    hathiGumphaDesc: "सबसे महत्वपूर्ण गुफा जिसमें प्रागैतिहासिक रॉक पेंटिंग और राजा खारवेल के अभियानों के बारे में प्रसिद्ध 17-पंक्ति का शाही शिलालेख है।",
+    raniGumphaTitle: "रानी गुम्फा (गुफा संख्या 1)",
+    raniGumphaDesc: "विस्तृत फ्रिज़ के साथ एक दो मंजिला मठ जिसमें शाही जुलूस, शिकार अभियान और नृत्य प्रदर्शन सहित विभिन्न दृश्यों को दर्शाया गया है।",
+    ganesaGumphaTitle: "गणेश गुम्फा (गुफा संख्या 10)",
+    ganesaGumphaDesc: "इसमें राहत चित्र और 8वीं शताब्दी का शिलालेख है, जिसमें उदयन और वास्रवदत्ता की कहानी को दर्शाने वाले दृश्य हैं।",
+    allCavesTitle: "सभी गुफाएं:",
+    anantaGumphaTitle: "अनंत गुम्फा (गुफा संख्या 3)",
+    anantaGumphaDesc: "अपनी समृद्ध सजावट, जुड़वां सर्प आकृतियों और जैन शुभ प्रतीकों सहित मूर्तिकला विशेषताओं के लिए जाना जाता है।",
+    cave8Title: "गुफा संख्या 8",
+    cave8Desc: "इसमें सभी 24 तीर्थंकरों और उनकी सासनदेवियों की आकृतियाँ हैं, जिनमें चक्रेश्वरी और रोहिणी की अद्वितीय बारह भुजाओं वाली आकृतियाँ हैं।",
+    referencesTitle: "संदर्भ",
+    visitInfoTitle: "आने की जानकारी",
+    asiTitle: "भारतीय पुरातत्व सर्वेक्षण",
+    locationTitle: "स्थान",
+    exploreTitle: "उदयगिरि का अन्वेषण करें",
+    galleryTitle: "गैलरी",
     'video': '<iframe width="560" height="315" src="https://www.youtube.com/embed/jcoZuXbNceU?si=VkA8cuZvZDHyi00j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   od: {
@@ -98,6 +134,24 @@ const content = {
         description: "ପ୍ରାଚୀନ ଶିଳାଲେଖ, ମୂର୍ତ୍ତି ଏବଂ ଶିଳା କଟ ସ୍ଥାପତ୍ୟ"
       }
     },
+    notableCavesTitle: "ଉଲ୍ଲେଖନୀୟ ଗୁମ୍ଫା:",
+    hathiGumphaTitle: "ହାତୀ ଗୁମ୍ଫା (ଗୁମ୍ଫା ନଂ. ୧୪)",
+    hathiGumphaDesc: "ପ୍ରାଗୈତିହାସିକ ଶୈଳ ଚିତ୍ର ଏବଂ ରାଜା ଖାରବେଳଙ୍କ ଅଭିଯାନ ବିଷୟରେ ପ୍ରସିଦ୍ଧ ୧୭-ଧାଡ଼ି ବିଶିଷ୍ଟ ରାଜକୀୟ ଶିଳାଲେଖ ଥିବା ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଗୁମ୍ଫା।",
+    raniGumphaTitle: "ରାଣୀ ଗୁମ୍ଫା (ଗୁମ୍ଫା ନଂ. ୧)",
+    raniGumphaDesc: "ଏକ ଦୁଇ ମହଲା ବିଶିଷ୍ଟ ମଠ ଯେଉଁଥିରେ ରାଜକୀୟ ଶୋଭାଯାତ୍ରା, ଶିକାର ଅଭିଯାନ ଏବଂ ନୃତ୍ୟ ପ୍ରଦର୍ଶନ ସହିତ ବିଭିନ୍ନ ଦୃଶ୍ୟ ପ୍ରଦର୍ଶନ କରୁଥିବା ବିସ୍ତୃତ ଫ୍ରିଜ୍ ରହିଛି।",
+    ganesaGumphaTitle: "ଗଣେଶ ଗୁମ୍ଫା (ଗୁମ୍ଫା ନଂ. ୧୦)",
+    ganesaGumphaDesc: "ଏଥିରେ ରିଲିଫ୍ ଚିତ୍ର ଏବଂ ଅଷ୍ଟମ ଶତାବ୍ଦୀର ଏକ ଶିଳାଲେଖ ରହିଛି, ଯେଉଁଥିରେ ଉଦୟନ ଏବଂ ବାସବଦତ୍ତାଙ୍କ କାହାଣୀ ପ୍ରଦର୍ଶନ କରୁଥିବା ଦୃଶ୍ୟ ରହିଛି।",
+    allCavesTitle: "ସମସ୍ତ ଗୁମ୍ଫା:",
+    anantaGumphaTitle: "ଅନନ୍ତ ଗୁମ୍ଫା (ଗୁମ୍ଫା ନଂ. ୩)",
+    anantaGumphaDesc: "ଏହାର ସମୃଦ୍ଧ ଅଳଙ୍କାର, ଯୁଗଳ ସର୍ପ ଆକୃତି ଏବଂ ଜୈନ ଶୁଭ ପ୍ରତୀକ ସହିତ ମୂର୍ତ୍ତିକଳା ବିଶେଷତା ପାଇଁ ଜଣାଶୁଣା।",
+    cave8Title: "ଗୁମ୍ଫା ନଂ. ୮",
+    cave8Desc: "ଏଥିରେ ସମସ୍ତ ୨୪ ତୀର୍ଥଙ୍କର ଏବଂ ସେମାନଙ୍କ ଶାସନଦେବୀଙ୍କ ଚିତ୍ର ରହିଛି, ଯେଉଁଥିରେ ଚକ୍ରେଶ୍ୱରୀ ଏବଂ ରୋହିଣୀଙ୍କ ଅନନ୍ୟ ବାର-ବାହୁ ବିଶିଷ୍ଟ ଚିତ୍ର ରହିଛି।",
+    referencesTitle: "ସନ୍ଦର୍ଭ",
+    visitInfoTitle: "ଭ୍ରମଣ ସୂଚନା",
+    asiTitle: "ଭାରତୀୟ ପ୍ରତ୍ନତତ୍ତ୍ୱ ସର୍ବେକ୍ଷଣ",
+    locationTitle: "ସ୍ଥାନ",
+    exploreTitle: "ଉଦୟଗିରି ଅନୁସନ୍ଧାନ କରନ୍ତୁ",
+    galleryTitle: "ଗ୍ୟାଲେରୀ",
     'video': '<iframe width="560" height="315" src="https://www.youtube.com/embed/q_XnS_1G1vc?si=eJ2YvRM6SdJfX0Hi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   }
 };
@@ -289,7 +343,7 @@ function App() {
       <div id="main-content" className="max-w-7xl mx-auto px-4 py-16">
         {/* Video Section */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 text-center">Explore Udayagiri</h2>
+          <h2 className="text-2xl font-bold mb-6 text-center">{currentContent.exploreTitle}</h2>
           <div className="flex justify-center">
             <div className="w-full max-w-3xl">
               <div className="relative pb-[56.25%] h-0" dangerouslySetInnerHTML={{ __html: currentContent.video}}>      
@@ -319,7 +373,7 @@ function App() {
 
         {/* Image Gallery */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold mb-8">Gallery</h2>
+          <h2 className="text-3xl font-bold mb-8">{currentContent.galleryTitle}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {galleryImages.map((image, index) => (
               <div key={index} className="group relative overflow-hidden rounded-lg shadow-md aspect-[4/3]">
@@ -359,27 +413,24 @@ function App() {
                 {currentContent.udayagiriDescription}
               </p>
               <div className="space-y-4">
-                <h4 className="font-semibold text-lg">Notable Caves:</h4>
+                <h4 className="font-semibold text-lg">{currentContent.notableCavesTitle}</h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="font-medium">Hathi Gumpha (Cave No. 14)</h5>
-                    <p className="text-gray-600">The most important cave featuring prehistoric rock paintings and
-                    the famous 17-line royal inscription about King Kharavela's expeditions.</p>
+                    <h5 className="font-medium">{currentContent.hathiGumphaTitle}</h5>
+                    <p className="text-gray-600">{currentContent.hathiGumphaDesc}</p>
                   </div>
                   <div>
-                    <h5 className="font-medium">Rani Gumpha (Cave No. 1)</h5>
-                    <p className="text-gray-600">A double-storied monastery with elaborate friezes depicting
-                    various scenes including royal processions, hunting expeditions, and dance performances.</p>
+                    <h5 className="font-medium">{currentContent.raniGumphaTitle}</h5>
+                    <p className="text-gray-600">{currentContent.raniGumphaDesc}</p>
                   </div>
                   <div>
-                    <h5 className="font-medium">Ganesa Gumpha (Cave No. 10)</h5>
-                    <p className="text-gray-600">Features relief images and an 8th-century inscription, with
-                    scenes depicting the story of Udayana and Vasavadatta.</p>
+                    <h5 className="font-medium">{currentContent.ganesaGumphaTitle}</h5>
+                    <p className="text-gray-600">{currentContent.ganesaGumphaDesc}</p>
                   </div>
                 </div>
               </div>
               <div className="mt-6">
-                <h4 className="font-semibold text-lg mb-3">All Caves:</h4>
+                <h4 className="font-semibold text-lg mb-3">{currentContent.allCavesTitle}</h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   {udayagiriCaves.map((cave, index) => (
                     <div key={index} className="text-sm">
@@ -399,17 +450,15 @@ function App() {
                 {currentContent.khandagiriDescription}
               </p>
               <div className="space-y-4">
-                <h4 className="font-semibold text-lg">Notable Caves:</h4>
+                <h4 className="font-semibold text-lg">{currentContent.notableCavesTitle}</h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="font-medium">Ananta Gumpha (Cave No. 3)</h5>
-                    <p className="text-gray-600">Known for its rich ornamentations, twin serpent figures,
-                    and sculptural features including Jain auspicious symbols.</p>
+                    <h5 className="font-medium">{currentContent.anantaGumphaTitle}</h5>
+                    <p className="text-gray-600">{currentContent.anantaGumphaDesc}</p>
                   </div>
                   <div>
-                    <h5 className="font-medium">Cave No. 8</h5>
-                    <p className="text-gray-600">Contains figures of all 24 Tirthankaras and their Sasanadevis,
-                    with unique twelve-armed figures of Chakreshvari and Rohini.</p>
+                    <h5 className="font-medium">{currentContent.cave8Title}</h5>
+                    <p className="text-gray-600">{currentContent.cave8Desc}</p>
                   </div>
                   <div>
                     <h5 className="font-medium">{currentContent.modernTempleTitle}</h5>
@@ -418,7 +467,7 @@ function App() {
                 </div>
               </div>
               <div className="mt-6">
-                <h4 className="font-semibold text-lg mb-3">All Caves:</h4>
+                <h4 className="font-semibold text-lg mb-3">{currentContent.allCavesTitle}</h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   {khandagiriCaves.map((cave, index) => (
                     <div key={index} className="text-sm">
@@ -435,7 +484,7 @@ function App() {
         <div className="bg-white p-8 rounded-lg shadow-md mb-16">
           <div className="flex items-center mb-6">
             <Book className="w-6 h-6 text-amber-600 mr-3" />
-            <h3 className="text-2xl font-bold">References</h3>
+            <h3 className="text-2xl font-bold">{currentContent.referencesTitle}</h3>
           </div>
           <div className="space-y-4">
             {references.map((ref, index) => (
@@ -450,10 +499,10 @@ function App() {
 
         {/* Contact Information */}
         <div className="bg-amber-50 p-8 rounded-lg">
-          <h3 className="text-2xl font-bold mb-6">Visit Information</h3>
+          <h3 className="text-2xl font-bold mb-6">{currentContent.visitInfoTitle}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h4 className="font-semibold mb-4">Archaeological Survey of India</h4>
+              <h4 className="font-semibold mb-4">{currentContent.asiTitle}</h4>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-amber-600" />
@@ -470,7 +519,7 @@ function App() {
               </div>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Location</h4>
+              <h4 className="font-semibold mb-4">{currentContent.locationTitle}</h4>
               <p>Udayagiri: Lat. 20°15'45" N, Long. 85°47'05" E</p>
               <p>Khandagiri: Lat. 20°15'47" N, Long. 85°47'08" E</p>
             </div>
