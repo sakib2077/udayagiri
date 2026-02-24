@@ -50,8 +50,142 @@ const content = {
     visitInfoTitle: "Visit Information",
     asiTitle: "Archaeological Survey of India",
     locationTitle: "Location",
+    address: "Bhubaneswar Circle, Samantarapur, Bhubaneswar- 751002 (Odisha)",
+    udayagiriCoord: "Udayagiri: Lat. 20°15'45\" N, Long. 85°47'05\" E",
+    khandagiriCoord: "Khandagiri: Lat. 20°15'47\" N, Long. 85°47'08\" E",
     exploreTitle: "Explore Udayagiri",
     galleryTitle: "Gallery",
+    galleryImages: [
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/2-Ranigumpha-Udayagiri-scaled.jpg",
+        title: "Ranigumpha Udayagiri",
+        description: "The architectural marvel of the entire complex"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/4-Baghgumpha-Udayagiri.jpg",
+        title: "Baghgumpha Udayagiri",
+        description: "Cave with opening carved like a tiger's head"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/5-Landscape-Scene-Ranigumpha.jpg",
+        title: "Landscape Scene Ranigumpha",
+        description: "Detailed landscape carvings from Rani Gumpha"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/7-A-Female-Dancer-Ranigumpha.jpg",
+        title: "Female Dancer Ranigumpha",
+        description: "Ancient carving depicting a dance performance"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/8-Manchapuri-and-svargapuri-Caves-Udayagiri-scaled.jpg",
+        title: "Manchapuri and Svargapuri Caves",
+        description: "Double-storied cave with historical inscriptions"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/9-Landscape-Scene-Ranigumpha.jpg",
+        title: "Landscape Scene",
+        description: "Intricate landscape carving showing historical scenes"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/13-Gajalakshmi-Anantagumpha-Khandagiri.jpg",
+        title: "Gajalakshmi Anantagumpha",
+        description: "Sculptural detail from Ananta Gumpha, Khandagiri"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/14-Risabhanath-and-Amra-scaled.jpg",
+        title: "Risabhanath and Amra",
+        description: "Religious sculpture depicting Jain figures"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-1-scaled.jpg",
+        title: "Historical Panel 1",
+        description: "Detailed panel showing historical scenes"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-2-scaled.jpg",
+        title: "Historical Panel 2",
+        description: "Ancient carved panel with historical significance"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-3-scaled.jpg",
+        title: "Historical Panel 3",
+        description: "Intricate carvings depicting historical events"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-4-scaled.jpg",
+        title: "Historical Panel 4",
+        description: "Detailed relief work showing historical scenes"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-5-scaled.jpg",
+        title: "Historical Panel 5",
+        description: "Ancient panel with historical carvings"
+      }
+    ],
+    udayagiriCaves: [
+      { name: "Rani Gumpha", number: "Cave No. 1" },
+      { name: "Bajaghar Gumpha", number: "Cave No. 2" },
+      { name: "Chhota Hathi Gumpha", number: "Cave No. 3" },
+      { name: "Alakapuri Gumpha", number: "Cave No. 4" },
+      { name: "Jaya-Vijaya Gumpha", number: "Cave No. 5" },
+      { name: "Panasa Gumpha", number: "Cave No. 6" },
+      { name: "Thakurani Gumpha", number: "Cave No. 7" },
+      { name: "Patalapuri Gumpha", number: "Cave No. 8" },
+      { name: "Manchapuri and Swargapuri Gumpha", number: "Cave No. 9" },
+      { name: "Ganesa Gumpha", number: "Cave No. 10" },
+      { name: "Jambesvara Gumpha", number: "Cave No. 11" },
+      { name: "Bagha Gumpha", number: "Cave No. 12" },
+      { name: "Sarpa Gumpha", number: "Cave No. 13" },
+      { name: "Hathi Gumpha", number: "Cave No. 14" },
+      { name: "Dhanaghara Gumpha", number: "Cave No. 15" },
+      { name: "Haridasa Gumpha", number: "Cave No. 16" },
+      { name: "Jagannatha Gumpha", number: "Cave No. 17" },
+      { name: "Rasui Gumpha", number: "Cave No. 18" }
+    ],
+    khandagiriCaves: [
+      { name: "Tatowa Gumpha 1", number: "Cave No. 1" },
+      { name: "Tatowa Gumpha 2", number: "Cave No. 2" },
+      { name: "Ananta Gumpha", number: "Cave No. 3" },
+      { name: "Tentuli Gumpha", number: "Cave No. 4" },
+      { name: "Khandagiri Gumpha", number: "Cave No. 5" },
+      { name: "Dhyanaghara/Dhyana Gumpha", number: "Cave No. 6" },
+      { name: "Navamuni Gumpha", number: "Cave No. 7" },
+      { name: "Barabhuji Gumpha", number: "Cave No. 8" },
+      { name: "Trisula Gumpha", number: "Cave No. 9" },
+      { name: "Unnamed Cave", number: "Cave No. 10" },
+      { name: "Lalatendukesari Gumpha", number: "Cave No. 11" },
+      { name: "Unnamed cave near Radhakunda", number: "Cave No. 12" },
+      { name: "Unnamed cave beyond Radhakunda", number: "Cave No. 13" },
+      { name: "Ekadasi Gumpha", number: "Cave No. 14" },
+      { name: "Unnamed cave near Gupta Ganga", number: "Cave No. 15" }
+    ],
+    references: [
+      {
+        author: "A. Sterling",
+        title: "An Account, Geographical, Statistical and Historical of Orissa Proper or Cuttack",
+        publication: "Asiatic Researches, XV, Serampur, 1825, PP.311-15"
+      },
+      {
+        author: "D. Mitra",
+        title: "Udayagiri and Khandagiri",
+        publication: "Archaeological Survey of India, New Delhi, 1992"
+      },
+      {
+        author: "K. P. Jayaswal & R. D. Banerji",
+        title: "The Hathigumpha Inscription of Kharavela",
+        publication: "Epigraphia Indica, Vol XX, 1930, PP.71-89"
+      },
+      {
+        author: "R. D. Banerji",
+        title: "Inscriptions in the Udayagiri and Khandagiri Caves",
+        publication: "Epigraphia Indica, Vol. XX, 1930, PP.71-89"
+      },
+      {
+        author: "R. P. Mohapatra",
+        title: "Udayagiri and Khandagiri Caves",
+        publication: "D. K. Publications, Delhi, 1981"
+      }
+    ],
     video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/nrB9js74WNM?si=FCWM7p3DcXh6mPq5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   hi: {
@@ -100,9 +234,143 @@ const content = {
     visitInfoTitle: "आने की जानकारी",
     asiTitle: "भारतीय पुरातत्व सर्वेक्षण",
     locationTitle: "स्थान",
+    address: "भुवनेश्वर सर्कल, सामंतरापुर, भुवनेश्वर- 751002 (ओडिशा)",
+    udayagiriCoord: "उदयगिरि: अक्षांश 20°15'45\" उ., देशांतर 85°47'05\" पू.",
+    khandagiriCoord: "खंडगिरि: अक्षांश 20°15'47\" उ., देशांतर 85°47'08\" पू.",
     exploreTitle: "उदयगिरि का अन्वेषण करें",
     galleryTitle: "गैलरी",
-    'video': '<iframe width="560" height="315" src="https://www.youtube.com/embed/jcoZuXbNceU?si=VkA8cuZvZDHyi00j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    galleryImages: [
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/2-Ranigumpha-Udayagiri-scaled.jpg",
+        title: "रानी गुम्फा उदयगिरि",
+        description: "पूरे परिसर का स्थापत्य चमत्कार"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/4-Baghgumpha-Udayagiri.jpg",
+        title: "बाघ गुम्फा उदयगिरि",
+        description: "शेर के सिर की तरह नक्काशीदार द्वार वाली गुफा"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/5-Landscape-Scene-Ranigumpha.jpg",
+        title: "परिदृश्य दृश्य रानी गुम्फा",
+        description: "रानी गुम्फा से विस्तृत परिदृश्य नक्काशी"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/7-A-Female-Dancer-Ranigumpha.jpg",
+        title: "महिला नर्तकी रानी गुम्फा",
+        description: "नृत्य प्रदर्शन को दर्शाती प्राचीन नक्काशी"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/8-Manchapuri-and-svargapuri-Caves-Udayagiri-scaled.jpg",
+        title: "मंचपुरी और स्वर्गपुरी गुफाएं",
+        description: "ऐतिहासिक शिलालेखों वाली दो मंजिला गुफा"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/9-Landscape-Scene-Ranigumpha.jpg",
+        title: "परिदृश्य दृश्य",
+        description: "ऐतिहासिक दृश्यों को दर्शाती जटिल परिदृश्य नक्काशी"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/13-Gajalakshmi-Anantagumpha-Khandagiri.jpg",
+        title: "गजलक्ष्मी अनंत गुम्फा",
+        description: "अनंत गुम्फा, खंडगिरि से मूर्तिकला विवरण"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/14-Risabhanath-and-Amra-scaled.jpg",
+        title: "ऋषभनाथ और आम्र",
+        description: "जैन आकृतियों को दर्शाती धार्मिक मूर्तिकला"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-1-scaled.jpg",
+        title: "ऐतिहासिक पैनल 1",
+        description: "ऐतिहासिक दृश्यों को दर्शाने वाला विस्तृत पैनल"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-2-scaled.jpg",
+        title: "ऐतिहासिक पैनल 2",
+        description: "ऐतिहासिक महत्व का प्राचीन नक्काशीदार पैनल"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-3-scaled.jpg",
+        title: "ऐतिहासिक पैनल 3",
+        description: "ऐतिहासिक घटनाओं को दर्शाती जटिल नक्काशी"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-4-scaled.jpg",
+        title: "ऐतिहासिक पैनल 4",
+        description: "ऐतिहासिक दृश्यों को दर्शाने वाला विस्तृत राहत कार्य"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-5-scaled.jpg",
+        title: "ऐतिहासिक पैनल 5",
+        description: "ऐतिहासिक नक्काशी वाला प्राचीन पैनल"
+      }
+    ],
+    udayagiriCaves: [
+      { name: "रानी गुम्फा", number: "गुफा संख्या 1" },
+      { name: "बजाघर गुम्फा", number: "गुफा संख्या 2" },
+      { name: "छोटा हाथी गुम्फा", number: "गुफा संख्या 3" },
+      { name: "अलकापुरी गुम्फा", number: "गुफा संख्या 4" },
+      { name: "जय-विजय गुम्फा", number: "गुफा संख्या 5" },
+      { name: "पनासा गुम्फा", number: "गुफा संख्या 6" },
+      { name: "ठकुरानी गुम्फा", number: "गुफा संख्या 7" },
+      { name: "पातालपुरी गुम्फा", number: "गुफा संख्या 8" },
+      { name: "मंचपुरी और स्वर्गपुरी गुम्फा", number: "गुफा संख्या 9" },
+      { name: "गणेश गुम्फा", number: "गुफा संख्या 10" },
+      { name: "जाम्बेश्वर गुम्फा", number: "गुफा संख्या 11" },
+      { name: "बाघ गुम्फा", number: "गुफा संख्या 12" },
+      { name: "सर्प गुम्फा", number: "गुफा संख्या 13" },
+      { name: "हाथी गुम्फा", number: "गुफा संख्या 14" },
+      { name: "धनघर गुम्फा", number: "गुफा संख्या 15" },
+      { name: "हरिदास गुम्फा", number: "गुफा संख्या 16" },
+      { name: "जगन्नाथ गुम्फा", number: "गुफा संख्या 17" },
+      { name: "रसोई गुम्फा", number: "गुफा संख्या 18" }
+    ],
+    khandagiriCaves: [
+      { name: "ततोवा गुम्फा 1", number: "गुफा संख्या 1" },
+      { name: "ततोवा गुम्फा 2", number: "गुफा संख्या 2" },
+      { name: "अनंत गुम्फा", number: "गुफा संख्या 3" },
+      { name: "तेन्तुली गुम्फा", number: "गुफा संख्या 4" },
+      { name: "खंडगिरि गुम्फा", number: "गुफा संख्या 5" },
+      { name: "ध्यानघर गुम्फा", number: "गुफा संख्या 6" },
+      { name: "नवमुनि गुम्फा", number: "गुफा संख्या 7" },
+      { name: "बरभुजी गुम्फा", number: "गुफा संख्या 8" },
+      { name: "त्रिशूल गुम्फा", number: "गुफा संख्या 9" },
+      { name: "अनाम गुफा", number: "गुफा संख्या 10" },
+      { name: "ललाटेन्दुकेशरी गुम्फा", number: "गुफा संख्या 11" },
+      { name: "राधाकुंड के पास अनाम गुफा", number: "गुफा संख्या 12" },
+      { name: "राधाकुंड से आगे अनाम गुफा", number: "गुफा संख्या 13" },
+      { name: "एकादशी गुम्फा", number: "गुफा संख्या 14" },
+      { name: "गुप्त गंगा के पास अनाम गुफा", number: "गुफा संख्या 15" }
+    ],
+    references: [
+      {
+        author: "A. Sterling",
+        title: "ओडिशा प्रॉपर या कटक का भौगोलिक, सांख्यिकीय और ऐतिहासिक विवरण",
+        publication: "एशियाटिक रिसर्च, XV, सेरामपुर, 1825, पृ. 311-15"
+      },
+      {
+        author: "D. Mitra",
+        title: "उदयगिरि और खंडगिरि",
+        publication: "भारतीय पुरातत्व सर्वेक्षण, नई दिल्ली, 1992"
+      },
+      {
+        author: "K. P. Jayaswal और R. D. Banerji",
+        title: "खारवेल का हाथीगुम्फा शिलालेख",
+        publication: "एपिसोग्राफिया इंडिका, खंड XX, 1930, पृ. 71-89"
+      },
+      {
+        author: "R. D. Banerji",
+        title: "उदयगिरि और खंडगिरि गुफाओं में शिलालेख",
+        publication: "एपिसोग्राफिया इंडिका, खंड XX, 1930, पृ. 71-89"
+      },
+      {
+        author: "R. P. Mohapatra",
+        title: "उदयगिरि और खंडगिरि गुफाएँ",
+        publication: "डी. के. पब्लिकेशंस, दिल्ली, 1981"
+      }
+    ],
+    'video': '<iframe width="560" height="315" src="https://www.youtube.com/embed/jcoZuXbNceU?si=VkA8cuZvZDHyi00j" title="यूट्यूब वीडियो प्लेयर" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   od: {
     title: "ଉଦୟଗିରି ଏବଂ ଖଣ୍ଡଗିରି ଗୁମ୍ଫା",
@@ -150,146 +418,145 @@ const content = {
     visitInfoTitle: "ଭ୍ରମଣ ସୂଚନା",
     asiTitle: "ଭାରତୀୟ ପ୍ରତ୍ନତତ୍ତ୍ୱ ସର୍ବେକ୍ଷଣ",
     locationTitle: "ସ୍ଥାନ",
+    address: "ଭୁବନେଶ୍ୱର ସର୍କଲ୍, ସାମନ୍ତରାପୁର, ଭୁବନେଶ୍ୱର- ୭୫୧୦୦୨ (ଓଡ଼ିଶା)",
+    udayagiriCoord: "ଉଦୟଗିରି: ଅକ୍ଷାଂଶ ୨୦°୧୫'୪୫\" ଉ., ଦ୍ରାଘିମା ୮୫°୪୭'୦୫\" ପୂ.",
+    khandagiriCoord: "ଖଣ୍ଡଗିରି: ଅକ୍ଷାଂଶ ୨୦°୧୫'୪୭\" ଉ., ଦ୍ରାଘିମା ୮୫°୪୭'୦୮\" ପୂ.",
     exploreTitle: "ଉଦୟଗିରି ଅନୁସନ୍ଧାନ କରନ୍ତୁ",
     galleryTitle: "ଗ୍ୟାଲେରୀ",
-    'video': '<iframe width="560" height="315" src="https://www.youtube.com/embed/q_XnS_1G1vc?si=eJ2YvRM6SdJfX0Hi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    galleryImages: [
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/2-Ranigumpha-Udayagiri-scaled.jpg",
+        title: "ରାଣୀ ଗୁମ୍ଫା ଉଦୟଗିରି",
+        description: "ସମଗ୍ର ପରିସରର ସ୍ଥାପତ୍ୟ ଚମତ୍କାର"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/4-Baghgumpha-Udayagiri.jpg",
+        title: "ବାଘ ଗୁମ୍ଫା ଉଦୟଗିରି",
+        description: "ବାଘ ମୁଣ୍ଡ ପରି ଖୋଦିତ ଦ୍ୱାର ଥିବା ଗୁମ୍ଫା"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/5-Landscape-Scene-Ranigumpha.jpg",
+        title: "ପରିଦୃଶ୍ୟ ଦୃଶ୍ୟ ରାଣୀ ଗୁମ୍ଫା",
+        description: "ରାଣୀ ଗୁମ୍ଫାରୁ ବିସ୍ତୃତ ପରିଦୃଶ୍ୟ ଖୋଦିତ କାର୍ଯ୍ୟ"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/7-A-Female-Dancer-Ranigumpha.jpg",
+        title: "ନର୍ତ୍ତକୀ ରାଣୀ ଗୁମ୍ଫା",
+        description: "ନୃତ୍ୟ ପ୍ରଦର୍ଶନକୁ ଦର୍ଶାଉଥିବା ପ୍ରାଚୀନ ଖୋଦିତ କାର୍ଯ୍ୟ"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/8-Manchapuri-and-svargapuri-Caves-Udayagiri-scaled.jpg",
+        title: "ମଞ୍ଚପୁରୀ ଏବଂ ସ୍ୱର୍ଗପୁରୀ ଗୁମ୍ଫା",
+        description: "ଐତିହାସିକ ଶିଳାଲେଖ ସହିତ ଦୁଇ ମହଲା ବିଶିଷ୍ଟ ଗୁମ୍ଫା"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/9-Landscape-Scene-Ranigumpha.jpg",
+        title: "ପରିଦୃଶ୍ୟ ଦୃଶ୍ୟ",
+        description: "ଐତିହାସିକ ଦୃଶ୍ୟ ଦର୍ଶାଉଥିବା ଜଟିଳ ପରିଦୃଶ୍ୟ ଖୋଦିତ କାର୍ଯ୍ୟ"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/13-Gajalakshmi-Anantagumpha-Khandagiri.jpg",
+        title: "ଗଜଲକ୍ଷ୍ମୀ ଅନନ୍ତ ଗୁମ୍ଫା",
+        description: "ଅନନ୍ତ ଗୁମ୍ଫା, ଖଣ୍ଡଗିରିରୁ ମୂର୍ତ୍ତିକଳା ବିବରଣୀ"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/14-Risabhanath-and-Amra-scaled.jpg",
+        title: "ଋଷଭନାଥ ଏବଂ ଆମ୍ର",
+        description: "ଜୈନ ପ୍ରତିମା ଦର୍ଶାଉଥିବା ଧାର୍ମିକ ମୂର୍ତ୍ତି"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-1-scaled.jpg",
+        title: "ଐତିହାସିକ ପ୍ୟାନେଲ୍ ୧",
+        description: "ଐତିହାସିକ ଦୃଶ୍ୟ ଦର୍ଶାଉଥିବା ବିସ୍ତୃତ ପ୍ୟାନେଲ୍"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-2-scaled.jpg",
+        title: "ଐତିହାସିକ ପ୍ୟାନେଲ୍ ୨",
+        description: "ଐତିହାସିକ ମହତ୍ତ୍ୱର ପ୍ରାଚୀନ ଖୋଦିତ ପ୍ୟାନେଲ୍"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-3-scaled.jpg",
+        title: "ଐତିହାସିକ ପ୍ୟାନେଲ୍ ୩",
+        description: "ଐତିହାସିକ ଘଟଣା ଦର୍ଶାଉଥିବା ଜଟିଳ ଖୋଦିତ କାର୍ଯ୍ୟ"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-4-scaled.jpg",
+        title: "ଐତିହାସିକ ପ୍ୟାନେଲ୍ ୪",
+        description: "ଐତିହାସିକ ଦୃଶ୍ୟ ଦର୍ଶାଉଥିବା ବିସ୍ତୃତ ରିଲିଫ୍ କାର୍ଯ୍ୟ"
+      },
+      {
+        url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-5-scaled.jpg",
+        title: "ଐତିହାସିକ ପ୍ୟାନେଲ୍ ୫",
+        description: "ଐତିହାସିକ ଖୋଦିତ କାର୍ଯ୍ୟ ସହିତ ପ୍ରାଚୀନ ପ୍ୟାନେଲ୍"
+      }
+    ],
+    udayagiriCaves: [
+      { name: "ରାଣୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧" },
+      { name: "ବଜାଘର ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୨" },
+      { name: "ଛୋଟ ହାତୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୩" },
+      { name: "ଅଳକାପୁରୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୪" },
+      { name: "ଜୟ-ବିଜୟ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୫" },
+      { name: "ପନସ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୬" },
+      { name: "ଠାକୁରାଣୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୭" },
+      { name: "ପାତାଳପୁରୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୮" },
+      { name: "ମଞ୍ଚପୁରୀ ଏବଂ ସ୍ୱର୍ଗପୁରୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୯" },
+      { name: "ଗଣେଶ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୦" },
+      { name: "ଜମ୍ବେଶ୍ୱର ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୧" },
+      { name: "ବାଘ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୨" },
+      { name: "ସର୍ପ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୩" },
+      { name: "ହାତୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୪" },
+      { name: "ଧାନଘର ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୫" },
+      { name: "ହରିଦାସ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୬" },
+      { name: "ଜଗନ୍ନାଥ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୭" },
+      { name: "ରୋଷେଇ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୮" }
+    ],
+    khandagiriCaves: [
+      { name: "ତତୋୱା ଗୁମ୍ଫା ୧", number: "ଗୁମ୍ଫା ନଂ. ୧" },
+      { name: "ତତୋୱା ଗୁମ୍ଫା ୨", number: "ଗୁମ୍ଫା ନଂ. ୨" },
+      { name: "ଅନନ୍ତ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୩" },
+      { name: "ତେନ୍ତୁଳି ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୪" },
+      { name: "ଖଣ୍ଡଗିରି ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୫" },
+      { name: "ଧ୍ୟାନଘର ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୬" },
+      { name: "ନବମୁନି ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୭" },
+      { name: "ବାରଭୁଜି ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୮" },
+      { name: "ତ୍ରିଶୂଳ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୯" },
+      { name: "ଅନାମ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୦" },
+      { name: "ଲଲାଟେନ୍ଦୁକେଶରୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୧" },
+      { name: "ରାଧାକୁଣ୍ଡ ନିକଟସ୍ଥ ଅନାମ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୨" },
+      { name: "ରାଧାକୁଣ୍ଡ ପରବର୍ତ୍ତୀ ଅନାମ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୩" },
+      { name: "ଏକାଦଶୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୪" },
+      { name: "ଗୁପ୍ତ ଗଙ୍ଗା ନିକଟସ୍ଥ ଅନାମ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୫" }
+    ],
+    references: [
+      {
+        author: "A. Sterling",
+        title: "ଓଡ଼ିଶା ପ୍ରପର ବା କଟକର ଭୌଗୋଳିକ, ପରିସଂଖ୍ୟାନ ଏବଂ ଐତିହାସିକ ବିବରଣୀ",
+        publication: "Asiatic Researches, XV, Serampur, 1825, PP.311-15"
+      },
+      {
+        author: "D. Mitra",
+        title: "ଉଦୟଗିରି ଏବଂ ଖଣ୍ଡଗିରି",
+        publication: "Archaeological Survey of India, New Delhi, 1992"
+      },
+      {
+        author: "K. P. Jayaswal & R. D. Banerji",
+        title: "ଖାରବେଳଙ୍କ ହାତୀଗୁମ୍ଫା ଶିଳାଲେଖ",
+        publication: "Epigraphia Indica, Vol XX, 1930, PP.71-89"
+      },
+      {
+        author: "R. D. Banerji",
+        title: "ଉଦୟଗିରି ଏବଂ ଖଣ୍ଡଗିରି ଗୁମ୍ଫାର ଶିଳାଲେଖ",
+        publication: "Epigraphia Indica, Vol. XX, 1930, PP.71-89"
+      },
+      {
+        author: "R. P. Mohapatra",
+        title: "ଉଦୟଗିରି ଏବଂ ଖଣ୍ଡଗିରି ଗୁମ୍ଫା",
+        publication: "D. K. Publications, Delhi, 1981"
+      }
+    ],
+    'video': '<iframe width="560" height="315" src="https://www.youtube.com/embed/q_XnS_1G1vc?si=eJ2YvRM6SdJfX0Hi" title="ୟୁଟ୍ୟୁବ୍ ଭିଡିଓ ପ୍ଲେୟାର୍" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   }
 };
-
-const galleryImages = [
-  {
-    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/2-Ranigumpha-Udayagiri-scaled.jpg",
-    title: "Ranigumpha Udayagiri",
-    description: "The architectural marvel of the entire complex"
-  },
-  {
-    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/4-Baghgumpha-Udayagiri.jpg",
-    title: "Baghgumpha Udayagiri",
-    description: "Cave with opening carved like a tiger's head"
-  },
-  {
-    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/5-Landscape-Scene-Ranigumpha.jpg",
-    title: "Landscape Scene Ranigumpha",
-    description: "Detailed landscape carvings from Rani Gumpha"
-  },
-  {
-    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/7-A-Female-Dancer-Ranigumpha.jpg",
-    title: "Female Dancer Ranigumpha",
-    description: "Ancient carving depicting a dance performance"
-  },
-  {
-    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/8-Manchapuri-and-svargapuri-Caves-Udayagiri-scaled.jpg",
-    title: "Manchapuri and Svargapuri Caves",
-    description: "Double-storied cave with historical inscriptions"
-  },
-  {
-    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/9-Landscape-Scene-Ranigumpha.jpg",
-    title: "Landscape Scene",
-    description: "Intricate landscape carving showing historical scenes"
-  },
-  {
-    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/13-Gajalakshmi-Anantagumpha-Khandagiri.jpg",
-    title: "Gajalakshmi Anantagumpha",
-    description: "Sculptural detail from Ananta Gumpha, Khandagiri"
-  },
-  {
-    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/14-Risabhanath-and-Amra-scaled.jpg",
-    title: "Risabhanath and Amra",
-    description: "Religious sculpture depicting Jain figures"
-  },
-  {
-    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-1-scaled.jpg",
-    title: "Historical Panel 1",
-    description: "Detailed panel showing historical scenes"
-  },
-  {
-    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-2-scaled.jpg",
-    title: "Historical Panel 2",
-    description: "Ancient carved panel with historical significance"
-  },
-  {
-    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-3-scaled.jpg",
-    title: "Historical Panel 3",
-    description: "Intricate carvings depicting historical events"
-  },
-  {
-    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-4-scaled.jpg",
-    title: "Historical Panel 4",
-    description: "Detailed relief work showing historical scenes"
-  },
-  {
-    url: "https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/Panel-5-scaled.jpg",
-    title: "Historical Panel 5",
-    description: "Ancient panel with historical carvings"
-  }
-];
-
-const udayagiriCaves = [
-  { name: "Rani Gumpha", number: "Cave No. 1" },
-  { name: "Bajaghar Gumpha", number: "Cave No. 2" },
-  { name: "Chhota Hathi Gumpha", number: "Cave No. 3" },
-  { name: "Alakapuri Gumpha", number: "Cave No. 4" },
-  { name: "Jaya-Vijaya Gumpha", number: "Cave No. 5" },
-  { name: "Panasa Gumpha", number: "Cave No. 6" },
-  { name: "Thakurani Gumpha", number: "Cave No. 7" },
-  { name: "Patalapuri Gumpha", number: "Cave No. 8" },
-  { name: "Manchapuri and Swargapuri Gumpha", number: "Cave No. 9" },
-  { name: "Ganesa Gumpha", number: "Cave No. 10" },
-  { name: "Jambesvara Gumpha", number: "Cave No. 11" },
-  { name: "Bagha Gumpha", number: "Cave No. 12" },
-  { name: "Sarpa Gumpha", number: "Cave No. 13" },
-  { name: "Hathi Gumpha", number: "Cave No. 14" },
-  { name: "Dhanaghara Gumpha", number: "Cave No. 15" },
-  { name: "Haridasa Gumpha", number: "Cave No. 16" },
-  { name: "Jagannatha Gumpha", number: "Cave No. 17" },
-  { name: "Rasui Gumpha", number: "Cave No. 18" }
-];
-
-const khandagiriCaves = [
-  { name: "Tatowa Gumpha 1", number: "Cave No. 1" },
-  { name: "Tatowa Gumpha 2", number: "Cave No. 2" },
-  { name: "Ananta Gumpha", number: "Cave No. 3" },
-  { name: "Tentuli Gumpha", number: "Cave No. 4" },
-  { name: "Khandagiri Gumpha", number: "Cave No. 5" },
-  { name: "Dhyanaghara/Dhyana Gumpha", number: "Cave No. 6" },
-  { name: "Navamuni Gumpha", number: "Cave No. 7" },
-  { name: "Barabhuji Gumpha", number: "Cave No. 8" },
-  { name: "Trisula Gumpha", number: "Cave No. 9" },
-  { name: "Unnamed Cave", number: "Cave No. 10" },
-  { name: "Lalatendukesari Gumpha", number: "Cave No. 11" },
-  { name: "Unnamed cave near Radhakunda", number: "Cave No. 12" },
-  { name: "Unnamed cave beyond Radhakunda", number: "Cave No. 13" },
-  { name: "Ekadasi Gumpha", number: "Cave No. 14" },
-  { name: "Unnamed cave near Gupta Ganga", number: "Cave No. 15" }
-];
-
-const references = [
-  {
-    author: "A. Sterling",
-    title: "An Account, Geographical, Statistical and Historical of Orissa Proper or Cuttack",
-    publication: "Asiatic Researches, XV, Serampur, 1825, PP.311-15"
-  },
-  {
-    author: "D. Mitra",
-    title: "Udayagiri and Khandagiri",
-    publication: "Archaeological Survey of India, New Delhi, 1992"
-  },
-  {
-    author: "K. P. Jayaswal & R. D. Banerji",
-    title: "The Hathigumpha Inscription of Kharavela",
-    publication: "Epigraphia Indica, Vol XX, 1930, PP.71-89"
-  },
-  {
-    author: "R. D. Banerji",
-    title: "Inscriptions in the Udayagiri and Khandagiri Caves",
-    publication: "Epigraphia Indica, Vol. XX, 1930, PP.71-89"
-  },
-  {
-    author: "R. P. Mohapatra",
-    title: "Udayagiri and Khandagiri Caves",
-    publication: "D. K. Publications, Delhi, 1981"
-  }
-];
 
 function App() {
   const [language, setLanguage] = useState<Language>('en');
@@ -375,7 +642,7 @@ function App() {
         <div className="mb-16">
           <h2 className="text-3xl font-bold mb-8">{currentContent.galleryTitle}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {galleryImages.map((image, index) => (
+            {currentContent.galleryImages.map((image, index) => (
               <div key={index} className="group relative overflow-hidden rounded-lg shadow-md aspect-[4/3]">
                 <img
                   src={image.url}
@@ -432,7 +699,7 @@ function App() {
               <div className="mt-6">
                 <h4 className="font-semibold text-lg mb-3">{currentContent.allCavesTitle}</h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                  {udayagiriCaves.map((cave, index) => (
+                  {currentContent.udayagiriCaves.map((cave, index) => (
                     <div key={index} className="text-sm">
                       <span className="font-medium">{cave.number}:</span> {cave.name}
                     </div>
@@ -469,7 +736,7 @@ function App() {
               <div className="mt-6">
                 <h4 className="font-semibold text-lg mb-3">{currentContent.allCavesTitle}</h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                  {khandagiriCaves.map((cave, index) => (
+                  {currentContent.khandagiriCaves.map((cave, index) => (
                     <div key={index} className="text-sm">
                       <span className="font-medium">{cave.number}:</span> {cave.name}
                     </div>
@@ -487,7 +754,7 @@ function App() {
             <h3 className="text-2xl font-bold">{currentContent.referencesTitle}</h3>
           </div>
           <div className="space-y-4">
-            {references.map((ref, index) => (
+            {currentContent.references.map((ref, index) => (
               <div key={index} className="border-b border-gray-100 last:border-0 pb-4 last:pb-0">
                 <p className="font-medium text-gray-900">{ref.author}</p>
                 <p className="text-gray-600">"{ref.title}"</p>
@@ -506,7 +773,7 @@ function App() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-amber-600" />
-                  <p>Bhubaneswar Circle, Samantarapur, Bhubaneswar- 751002 (Odisha)</p>
+                  <p>{currentContent.address}</p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-amber-600" />
@@ -520,8 +787,8 @@ function App() {
             </div>
             <div>
               <h4 className="font-semibold mb-4">{currentContent.locationTitle}</h4>
-              <p>Udayagiri: Lat. 20°15'45" N, Long. 85°47'05" E</p>
-              <p>Khandagiri: Lat. 20°15'47" N, Long. 85°47'08" E</p>
+              <p>{currentContent.udayagiriCoord}</p>
+              <p>{currentContent.khandagiriCoord}</p>
             </div>
           </div>
         </div>
