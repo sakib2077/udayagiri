@@ -54,6 +54,8 @@ const content = {
     udayagiriCoord: "Udayagiri: Lat. 20°15'45\" N, Long. 85°47'05\" E",
     khandagiriCoord: "Khandagiri: Lat. 20°15'47\" N, Long. 85°47'08\" E",
     exploreTitle: "Explore Udayagiri",
+    virtualTour: "https://asimuseum.info/UdayGiri_Khandagiri/UdayGiri%20Khandagiri/index.htm",
+    virtualTourText: "Virtual Tour of Udayagiri and Khandagiri",
     galleryTitle: "Gallery",
     galleryImages: [
       {
@@ -238,6 +240,8 @@ const content = {
     udayagiriCoord: "उदयगिरि: अक्षांश 20°15'45\" उ., देशांतर 85°47'05\" पू.",
     khandagiriCoord: "खंडगिरि: अक्षांश 20°15'47\" उ., देशांतर 85°47'08\" पू.",
     exploreTitle: "उदयगिरि का अन्वेषण करें",
+    virtualTour: "https://asimuseum.info/UdayGiri_Khandagiri/Udayagiri%20Khandagiri/index.htm",
+    virtualTourText: "उदयगिरि और खंडगिरि का वर्चुअल टूर",
     galleryTitle: "गैलरी",
     galleryImages: [
       {
@@ -422,6 +426,8 @@ const content = {
     udayagiriCoord: "ଉଦୟଗିରି: ଅକ୍ଷାଂଶ ୨୦°୧୫'୪୫\" ଉ., ଦ୍ରାଘିମା ୮୫°୪୭'୦୫\" ପୂ.",
     khandagiriCoord: "ଖଣ୍ଡଗିରି: ଅକ୍ଷାଂଶ ୨୦°୧୫'୪୭\" ଉ., ଦ୍ରାଘିମା ୮୫°୪୭'୦୮\" ପୂ.",
     exploreTitle: "ଉଦୟଗିରି ଅନୁସନ୍ଧାନ କରନ୍ତୁ",
+    virtualTour: "https://asimuseum.info/UdayGiri_Khandagiri/Udayagiri%20Khandagiri/index.htm",
+    virtualTourText: "ଉଦୟଗିରି ଏବଂ ଖଣ୍ଡଗିରିର ଭର୍ଚୁଆଲ ଟୁର",
     galleryTitle: "ଗ୍ୟାଲେରୀ",
     galleryImages: [
       {
@@ -635,6 +641,17 @@ function App() {
               </div>
             </div>
           </div>
+          {/* Virtual Tour Link */}
+          <p className="mt-4 text-center">
+            <a
+              href={currentContent.virtualTour}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              {currentContent.virtualTourText}
+            </a>
+          </p>
         </div>
 
         {/* Inline Odia PDF viewer */}
