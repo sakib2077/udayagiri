@@ -641,17 +641,6 @@ function App() {
               </div>
             </div>
           </div>
-          {/* Virtual Tour Link */}
-          <p className="mt-4 text-center">
-            <a
-              href={currentContent.virtualTour}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              {currentContent.virtualTourText}
-            </a>
-          </p>
         </div>
 
         {/* Inline Odia PDF viewer */}
@@ -689,6 +678,8 @@ function App() {
         </div>
         )}
 
+        
+
         {/* Image Gallery */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold mb-8">{currentContent.galleryTitle}</h2>
@@ -709,6 +700,20 @@ function App() {
               </div>
             ))}
           </div>
+        </div>
+
+         {/* Virtual Tour Section */}
+        <div className="bg-amber-100 rounded-lg shadow-lg p-8 mb-16 text-center" style={isOdia ? { opacity: 0.3, pointerEvents: 'none' } : {}}>
+          <h2 className="text-3xl font-bold mb-4 text-gray-800">Explore the Temple Virtually</h2>
+          <p className="text-lg text-gray-600 mb-6">Take an immersive 3D virtual tour of the magnificent Udaygiri from the comfort of your home.</p>
+          <a 
+            href="https://asimuseum.info/UdayGiri_Khandagiri/UdayGiri%20Khandagiri/index.htm"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-lg transition-colors duration-300"
+          >
+            Start Virtual Tour
+          </a>
         </div>
 
         {/* Detailed Description */}
