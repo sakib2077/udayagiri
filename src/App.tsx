@@ -560,7 +560,13 @@ const content = {
 
 function App() {
   const [language, setLanguage] = useState<Language>('en');
+  const [odiaPdfOpen, setOdiaPdfOpen] = useState(false);
+
+  // URL for the Odia-language PDF popup.  Update with whatever link you need.
+  const odiaPdfUrl = "https://jpraaar3li.ufs.sh/f/coNgfsp8HpgYUaxSEBqfKpAjSzvTMQy8krXJPnCxhFuER73l";
+
   const currentContent = content[language];
+  const isOdia = language === 'od';
 
   return (
     <div className="min-h-screen bg-stone-50">
@@ -571,7 +577,15 @@ function App() {
             <Globe className="w-4 h-4 text-amber-600" />
             <select 
               value={language} 
-              onChange={(e) => setLanguage(e.target.value as Language)}
+              onChange={(e) => {
+                const newLang = e.target.value as Language;
+                setLanguage(newLang);
+                if (newLang === 'od') {
+                  setOdiaPdfOpen(true);
+                } else {
+                  setOdiaPdfOpen(false);
+                }
+              }}
               className="border-none bg-transparent focus:outline-none cursor-pointer"
             >
               <option value="en">English</option>
@@ -591,12 +605,16 @@ function App() {
       >
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-          <h1 className="text-5xl font-bold mb-4 text-center px-4">{currentContent.title}</h1>
-          <p className="text-xl mb-8 text-center px-4">{currentContent.subtitle}</p>
-          <div className="flex items-center space-x-4">
-            <MapPin className="w-6 h-6" />
-            <p>{currentContent.location}</p>
-          </div>
+          {!isOdia && (
+            <>
+              <h1 className="text-5xl font-bold mb-4 text-center px-4">{currentContent.title}</h1>
+              <p className="text-xl mb-8 text-center px-4">{currentContent.subtitle}</p>
+              <div className="flex items-center space-x-4">
+                <MapPin className="w-6 h-6" />
+                <p>{currentContent.location}</p>
+              </div>
+            </>
+          )}
           <button 
             onClick={() => document.getElementById('main-content')?.scrollIntoView({ behavior: 'smooth' })}
             className="absolute bottom-8 animate-bounce"
@@ -618,8 +636,23 @@ function App() {
             </div>
           </div>
         </div>
+
+        {/* Inline Odia PDF viewer */}
+        {odiaPdfOpen && (
+          <div className="mb-16">
+            <h2 className="text-2xl font-bold mb-4 text-center">Odia Document</h2>
+            <div className="w-full h-[600px]">
+              <iframe
+                src={odiaPdfUrl}
+                className="w-full h-full border"
+                title="Odia PDF"
+              />
+            </div>
+          </div>
+        )}
         
         {/* Quick Info */}
+        {!isOdia && (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div className="bg-white p-6 rounded-lg shadow-md">
             <History className="w-8 h-8 mb-4 text-amber-600" />
@@ -637,6 +670,7 @@ function App() {
             <p>{currentContent.quickInfoCards.features.description}</p>
           </div>
         </div>
+        )}
 
         {/* Image Gallery */}
         <div className="mb-16">
@@ -661,6 +695,7 @@ function App() {
         </div>
 
         {/* Detailed Description */}
+        {!isOdia && (
         <div className="prose prose-lg max-w-none mb-16">
           <h2 className="text-3xl font-bold mb-8">{currentContent.historicalOverview}</h2>
           {currentContent.historicalText.map((paragraph, index) => (
@@ -669,8 +704,10 @@ function App() {
             </p>
           ))}
         </div>
+        )}
 
         {/* Cave Details */}
+        {!isOdia && (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
           {/* Udayagiri Section */}
           <div className="bg-white p-8 rounded-lg shadow-md">
@@ -746,8 +783,10 @@ function App() {
             </div>
           </div>
         </div>
+        )}
 
         {/* References Section */}
+        {!isOdia && (
         <div className="bg-white p-8 rounded-lg shadow-md mb-16">
           <div className="flex items-center mb-6">
             <Book className="w-6 h-6 text-amber-600 mr-3" />
@@ -763,8 +802,10 @@ function App() {
             ))}
           </div>
         </div>
+        )}
 
         {/* Contact Information */}
+        {!isOdia && (
         <div className="bg-amber-50 p-8 rounded-lg">
           <h3 className="text-2xl font-bold mb-6">{currentContent.visitInfoTitle}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -792,6 +833,7 @@ function App() {
             </div>
           </div>
         </div>
+        )}
       </div>
     </div>
   );
