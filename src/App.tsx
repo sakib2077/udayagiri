@@ -377,47 +377,48 @@ const content = {
     'video': '<iframe width="560" height="315" src="https://www.youtube.com/embed/jcoZuXbNceU?si=VkA8cuZvZDHyi00j" title="यूट्यूब वीडियो प्लेयर" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   od: {
-    title: "ଉଦୟଗିରି ଏବଂ ଖଣ୍ଡଗିରି ଗୁମ୍ଫା",
-    subtitle: "ପୂର୍ବ ଭାରତରେ ପ୍ରାଚୀନ ଜୈନ ଶିଳା-କଟ ସ୍ଥାପତ୍ୟ",
-    location: "ଭୁବନେଶ୍ୱର, ଓଡିଶା, ଭାରତ",
-    historicalOverview: "ଐତିହାସିକ ଅବଲୋକନ",
+    title: "C\dMòeò Gaõ LŠMòeò Mê¶û",
+    subtitle: "_ìað bûeZùe _âûPú^ _âÉe ùLû\òZ ùR÷^ iÚû_Zý",
+    location: "bêaù^gße, IWÿògû, bûeZ",
+    historicalOverview: "HZòjûiòK @aùfûK^",
     historicalText: [
-      "ଉଦୟଗିରି ଏବଂ ଖଣ୍ଡଗିରିର ଜୋଡ଼ା ପାହାଡ଼, ଯାହାକୁ ପ୍ରାଚୀନ କାଳରେ କୁମାର ଏବଂ କୁମାରୀ ପର୍ବତ ନାମରେ ଜଣାଶୁଣା ଥିଲା, ପୂର୍ବ ଭାରତରେ ଜୈନ ଶିଳା-କଟ ସ୍ଥାପତ୍ୟର ସବୁଠାରୁ ପ୍ରାରମ୍ଭିକ ଗୋଷ୍ଠୀମାନଙ୍କ ମଧ୍ୟରୁ ଗୋଟିଏ ଅଟେ। ଏହି ସ୍ମାରକଗୁଡ଼ିକ ମୁଖ୍ୟତଃ ଖାରବେଳ ସମ୍ରାଟଙ୍କ ଶାସନ କାଳ ସମୟରେ ପ୍ରଥମ ଶତାବ୍ଦୀ ଈସା ପୂର୍ବରେ ଖୋଦିତ ହୋଇଥିଲା, ଯାହା ଗୁମ୍ଫା ମଧ୍ୟରେ ଥିବା ଶିଳାଲେଖରୁ ସୂଚିତ ହୁଏ।",
-      "ଜୈନ ସନ୍ୟାସୀମାନଙ୍କ ନିବାସ ପାଇଁ ଏହି ଗୁମ୍ଫାଗୁଡ଼ିକରେ ଅତି କମ ସୁବିଧା ରହିଛି। ସାଧାରଣତଃ ଗୁମ୍ଫାଗୁଡ଼ିକ ଏକ ମହଲା ବିଶିଷ୍ଟ କିନ୍ତୁ କିଛି ଦୁଇ ମହଲା ମଧ୍ୟ ଅଛି। ଅଧିକାଂଶ ଗୁମ୍ଫାରେ ବାରଣ୍ଡା କିମ୍ବା ସାମ୍ନା ଖୋଲା ସ୍ଥାନକୁ କୋଠରୀଗୁଡ଼ିକର ଏକ ଧାଡ଼ି ଅଛି।",
-      "କୋଠରୀଗୁଡ଼ିକର ଦ୍ୱାରରେ ଦୁଇ ପାର୍ଶ୍ୱରେ ପିଲାସ୍ଟର ଅଛି ଯେଉଁଥିରେ ମୁକୁଟରେ ପଶୁ ଆକୃତି ଏବଂ ଉପରେ ମେହରାବ ଅଛି ଯାହା ଫୁଲ, ଲତା ଏବଂ ପଶୁ ଆକୃତିରେ ସଜାଯାଇଛି। ଗୁମ୍ଫାଗୁଡ଼ିକର ମୂର୍ତ୍ତିକଳା ଏବଂ ସାଜସଜ୍ଜା କଳାରେ ଲୋକପ୍ରିୟ କାହାଣୀ, ଐତିହାସିକ ଘଟଣା, ଧାର୍ମିକ ଅନୁଷ୍ଠାନ, ନୃତ୍ୟ ପ୍ରଦର୍ଶନ ଆଦି ଦର୍ଶାଉଥିବା ପ୍ୟାନେଲ/ଫ୍ରିଜ୍ ଅନ୍ତର୍ଭୁକ୍ତ।"
+      "C\dMòeò I LŠMòeò _aðZ\ßd _âûPú^ Kûkùe ~[ûKâùc Kêcûeú I Kêcûe _aðZ ^ûcùe iê_eòPòZ [ôfû û Gjû _ìað bûeZùe ùR÷^ _âÉe ùLû\òZ iÚû_Zýe iùaûðKôéÂ _âûe¸òK C\ûjeY c¤eê @^ýZc @ùU û Gjò iàûeKMêWÿòK cêLýZü Kkòw icâûU Lûeùaku gûi^Kûk icdùe LâúÁ_ìað _â[c gZû±úùe ùLû\òZ ùjûA[ôfû û Gjò Kû~ýðKâc ùiûcaõgú eûRûcû^u icdùe \gc-GKû\g gZû±ú _~ýð« fûMò ejò[ôfû û",
+      "ùR÷^ i^ýûiúcû^u ^òaûi _ûAñ CŸòÁ Gjò Mê¶ûMêWÿòKùe icð^òcÜ iêaò]û ejòQò û iû]ûeYZü Mê¶ûMêWÿòK GK cjfû aògòÁ Kò«ê KòQò Mê¶û \êA cjfû aògòÁ c¤ @ùU û ",
+      "ùKûVeúMêWÿòKe \ßûee Cbd _ûgßðùe É¸cû^ ejòQò ~ûjûe gúhðbûMùe _ê¿, fZû, _gê_lú @ûKéZò ùLû\òZ ùjûAQò û Mê¶ûMêWÿòKe iûRi{û I bûÄ~ýðcû^u c¤ùe ùfûK_òâd KûjûYú, HZòjûiòK NUYûakú, ]ûcòðK iõMV^, ^éZý _â\gð^, gòKûe\égý, _âûKéZòK \égýûakú @û\ò _âcêL @ùU û"
+
     ],
-    udayagiriTitle: "ଉଦୟଗିରି ଗୁମ୍ଫା",
-    udayagiriDescription: "ଉଦୟଗିରି ପାହାଡ଼ରେ ୧ୈ ଗୁମ୍ଫା ଅଛି ଯେଉଁଥିରେ ଉଲ୍ଲେଖନୀୟ ବିଶେଷତା ଅଛି, ଯେଉଁଥିରେ ପ୍ରସିଦ୍ଧ ହାତୀ ଗୁମ୍ଫା ଶିଳାଲେଖ ଏବଂ ସ୍ଥାପତ୍ୟ ଦୃଷ୍ଟିରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ରାଣୀ ଗୁମ୍ଫା ଅନ୍ତର୍ଭୁକ୍ତ।",
-    khandagiriTitle: "ଖଣ୍ଡଗିରି ଗୁମ୍ଫା",
-    khandagiriDescription: "ଖଣ୍ଡଗିରି ପାହାଡ଼ରେ ୧୫ ଗୁମ୍ଫା ଅଛି, ଯେଉଁଥିରୁ ଅନେକକୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଜୈନ ଧାର୍ମିକ ଖୋଦିତ କାର୍ଯ୍ୟ ଏବଂ ମୂର୍ତ୍ତି ସହିତ ମନ୍ଦିରରେ ପରିବର୍ତ୍ତିତ କରାଯାଇଛି।",
-    modernTempleTitle: "ଆଧୁନିକ ଜୈନ ମନ୍ଦିର",
-    modernTempleDescription: "ପାହାଡ଼ ଚୂଡ଼ାରେ ଅବସ୍ଥିତ, ୧୯ ଶତାବ୍ଦୀର ଶେଷରେ ନିର୍ମିତ ଏବଂ ଏବେ ବି ସକ୍ରିୟ, ଏହି ମନ୍ଦିର ସ୍ଥାନର ଧାର୍ମିକ ନିରନ୍ତରତାକୁ ସଂରକ୍ଷଣ କରେ।",
+    udayagiriTitle: "C\dMòeò Mê¶û icìj",
+    udayagiriDescription: "C\dMòeò _aðZùe 18Uò _âÉe ùLû\òZ Mê¶û, icâûU Lûeùaku jûZúMê¶û gòkûùfL I @gßLêeûKéZò ùR÷^ ùP÷ZýMéj @û\ò @aiÚòZ û",
+    khandagiriTitle: "LŠMòeò Mê¶û icìj",
+    khandagiriDescription: "LŠMòeò _aðZùe 15Uò Mê¶û @Qò û Z^à¤eê ùKùZK Mê¶ûKê _eaúð icdùe _ìRûiÚkúùe _eòaòZð^ KeûùjûAQò û",
     quickInfoCards: {
       historical: {
-        title: "ଐତିହାସିକ ମହତ୍ତ୍ୱ",
-        description: "ସମ୍ରାଟ ଖାରବେଳଙ୍କ ଶାସନ କାଳରେ ଖୋଦିତ ପ୍ରଥମ ଶତାବ୍ଦୀ ଈସା ପୂର୍ବର ଶିଳା କଟ ଗୁମ୍ଫା"
+        title: "HZòjûiòK cjZß",
+        description: "icâûU Lûeùak, Zûue _ûUeûYú I Ceû]ôKûeúcû^u gûi^ Kûkùe ùLû\òZ LâúÁ_ìað _â[c gZû±úe _âÉe ùLû\òZ ùR÷^ Mê¶û icìj û"
       },
       architecture: {
-        title: "ସ୍ଥାପତ୍ୟ",
-        description: "୩୩ ଶିଳା-କଟ ଗୁମ୍ଫା - ଉଦୟଗିରି ପାହାଡ଼ରେ ୧୮ ଏବଂ ଖଣ୍ଡଗିରି ପାହାଡ଼ରେ ୧୫ ଅନନ୍ୟ ଜୈନ ସ୍ଥାପତ୍ୟ ସହିତ"
+        title: "iÚû_Zý",
+        description: "iaðùcûU 18Uò Mê¶û C\dMòeò _aðZùe I 15Uò Mê¶û LŠMòeò _aðZùe @aiÚòZ û"
       },
       features: {
-        title: "ଉଲ୍ଲେଖନୀୟ ବିଶେଷତା",
-        description: "ପ୍ରାଚୀନ ଶିଳାଲେଖ, ମୂର୍ତ୍ତି ଏବଂ ଶିଳା କଟ ସ୍ଥାପତ୍ୟ"
+        title: "CùfäL^úd aòùghZû",
+        description: "_âÉe ùLû\òZ ùR÷^ Mê¶û, Lûeùaku jûZúMê¶û gòkûùfL, @gßLêeûKéZò ùR÷^ ùP÷ZýMéj û"
       }
     },
-    notableCavesTitle: "ଉଲ୍ଲେଖନୀୟ ଗୁମ୍ଫା:",
-    hathiGumphaTitle: "ହାତୀ ଗୁମ୍ଫା (ଗୁମ୍ଫା ନଂ. ୧୪)",
-    hathiGumphaDesc: "ପ୍ରାଗୈତିହାସିକ ଶୈଳ ଚିତ୍ର ଏବଂ ରାଜା ଖାରବେଳଙ୍କ ଅଭିଯାନ ବିଷୟରେ ପ୍ରସିଦ୍ଧ ୧୭-ଧାଡ଼ି ବିଶିଷ୍ଟ ରାଜକୀୟ ଶିଳାଲେଖ ଥିବା ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଗୁମ୍ଫା।",
-    raniGumphaTitle: "ରାଣୀ ଗୁମ୍ଫା (ଗୁମ୍ଫା ନଂ. ୧)",
-    raniGumphaDesc: "ଏକ ଦୁଇ ମହଲା ବିଶିଷ୍ଟ ମଠ ଯେଉଁଥିରେ ରାଜକୀୟ ଶୋଭାଯାତ୍ରା, ଶିକାର ଅଭିଯାନ ଏବଂ ନୃତ୍ୟ ପ୍ରଦର୍ଶନ ସହିତ ବିଭିନ୍ନ ଦୃଶ୍ୟ ପ୍ରଦର୍ଶନ କରୁଥିବା ବିସ୍ତୃତ ଫ୍ରିଜ୍ ରହିଛି।",
-    ganesaGumphaTitle: "ଗଣେଶ ଗୁମ୍ଫା (ଗୁମ୍ଫା ନଂ. ୧୦)",
-    ganesaGumphaDesc: "ଏଥିରେ ରିଲିଫ୍ ଚିତ୍ର ଏବଂ ଅଷ୍ଟମ ଶତାବ୍ଦୀର ଏକ ଶିଳାଲେଖ ରହିଛି, ଯେଉଁଥିରେ ଉଦୟନ ଏବଂ ବାସବଦତ୍ତାଙ୍କ କାହାଣୀ ପ୍ରଦର୍ଶନ କରୁଥିବା ଦୃଶ୍ୟ ରହିଛି।",
-    allCavesTitle: "ସମସ୍ତ ଗୁମ୍ଫା:",
-    anantaGumphaTitle: "ଅନନ୍ତ ଗୁମ୍ଫା (ଗୁମ୍ଫା ନଂ. ୩)",
-    anantaGumphaDesc: "ଏହାର ସମୃଦ୍ଧ ଅଳଙ୍କାର, ଯୁଗଳ ସର୍ପ ଆକୃତି ଏବଂ ଜୈନ ଶୁଭ ପ୍ରତୀକ ସହିତ ମୂର୍ତ୍ତିକଳା ବିଶେଷତା ପାଇଁ ଜଣାଶୁଣା।",
-    cave8Title: "ଗୁମ୍ଫା ନଂ. ୮",
-    cave8Desc: "ଏଥିରେ ସମସ୍ତ ୨୪ ତୀର୍ଥଙ୍କର ଏବଂ ସେମାନଙ୍କ ଶାସନଦେବୀଙ୍କ ଚିତ୍ର ରହିଛି, ଯେଉଁଥିରେ ଚକ୍ରେଶ୍ୱରୀ ଏବଂ ରୋହିଣୀଙ୍କ ଅନନ୍ୟ ବାର-ବାହୁ ବିଶିଷ୍ଟ ଚିତ୍ର ରହିଛି।",
+    notableCavesTitle: "_âcêL Mê¶ûicìj",
+    hathiGumphaTitle: "jûZú Mê¶û (Mê¶û iõLýû 14)",
+    hathiGumphaDesc: "jûZú Mê¶û _âûùM÷ZòjûiòK PòZâKkû I icâûU Lûeùaku gòkûùfL _ûAñ iê_âiò¡ û",
+    raniGumphaTitle: "eûYú Mê¶û (Mê¶û iõLýû 1)",
+    raniGumphaDesc: "\ßòZk aògòÁ eûYú Mê¶û Gjûe iìlà bûÄ~ýðeûRò, _âûKéZòK Rwf \égý ~[û Rkûgâd, _gê_lú, aélfZû, gòKûe \égý, ^éZýeZû ^ûdòKû, ^ûeú-_êeêhu c¤ùe ~ê¡ @û\ò_ûAñ iê_âiò¡ û",
+    ganesaGumphaTitle: "MùYg Mê¶û (Mê¶û iõLýû 10)",
+    ganesaGumphaDesc: "MùYg Mê¶ûùe C\d^ aûia\ûu KûjûYú I @Ác gZû±úe GK gòkûùfL aò\ýcû^ û",
+    allCavesTitle: "Mê¶û icìj",
+    anantaGumphaTitle: "@^«Mê¶û (Mê¶û iõLýû 3)",
+    anantaGumphaDesc: "@^«Mê¶ûe bûÄ~ýðcû^u c¤ùe i_ð~êMk, iì~ýð, MRflàú, ÊÉòK, ^¦ò_û\ @û\ò _âcêL @ùU û",
+    cave8Title: "aûebìRú Mê¶û (Mê¶û iõLýû 8)",
+    cave8Desc: "aûebìRú Mê¶ûùe Paòg RY  ùR÷^ Zú[ðue I ùicû^ue gûi^ù\aúcû^u _âZúcû aò\ýcû^ û",
+    modernTempleTitle: "@û]ê^òK ùR÷^ c¦òe",
+    modernTempleDescription: "_ûjûWÿ PìWÿûùe @aiÚòZ C^aòõg gZû±úe ùghbûMùe ^òcòðZ GK c¦òe @aiÚòZ, ~ûjûKò @ûRò_~ýð« ùR÷^ ]cûaf´úcû^u \ßûeû _ìRòZ ùjCQò I @ZúZKê aðcû^ ijòZ iõù~ûM KeêQò û",
     referencesTitle: "ସନ୍ଦର୍ଭ",
     visitInfoTitle: "ଭ୍ରମଣ ସୂଚନା",
     asiTitle: "ଭାରତୀୟ ପ୍ରତ୍ନତତ୍ତ୍ୱ ସର୍ବେକ୍ଷଣ",
@@ -497,41 +498,38 @@ const content = {
       }
     ],
     udayagiriCaves: [
-      { name: "ରାଣୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧" },
-      { name: "ବଜାଘର ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୨" },
-      { name: "ଛୋଟ ହାତୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୩" },
-      { name: "ଅଳକାପୁରୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୪" },
-      { name: "ଜୟ-ବିଜୟ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୫" },
-      { name: "ପନସ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୬" },
-      { name: "ଠାକୁରାଣୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୭" },
-      { name: "ପାତାଳପୁରୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୮" },
-      { name: "ମଞ୍ଚପୁରୀ ଏବଂ ସ୍ୱର୍ଗପୁରୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୯" },
-      { name: "ଗଣେଶ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୦" },
-      { name: "ଜମ୍ବେଶ୍ୱର ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୧" },
-      { name: "ବାଘ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୨" },
-      { name: "ସର୍ପ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୩" },
-      { name: "ହାତୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୪" },
-      { name: "ଧାନଘର ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୫" },
-      { name: "ହରିଦାସ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୬" },
-      { name: "ଜଗନ୍ନାଥ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୭" },
-      { name: "ରୋଷେଇ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୮" }
+      { name: "eûYú Mê¶û", number: "Mê¶û iõLýû 1" },
+      { name: "aûRûNe Mê¶û", number: "Mê¶û iõLýû 2" },
+      { name: "ùQûU jûZúMê¶û", number: "Mê¶û iõLýû 3" },
+      { name: "@kKû_êeú Mê¶û", number: "Mê¶û iõLýû 4" },
+      { name: "Rdû aòRdû Mê¶û", number: "Mê¶û iõLýû 5" },
+      { name: "_Yi Mê¶û", number: "Mê¶û iõLýû 6" },
+      { name: "VûKêeûYú Mê¶û", number: "Mê¶û iõLýû 7" },
+      { name: "_ûZûk_êeú Mê¶û", number: "Mê¶û iõLýû 8" },
+      { name: "c_êeú I ÊMð_êeú Mê¶û", number: "Mê¶û iõLýû 9" },
+      { name: "MùYg Mê¶û", number: "Mê¶û iõLýû 10" },
+      { name: "Rù´gße Mê¶û", number: "Mê¶û iõLýû 11" },
+      { name: "aûN Mê¶û", number: "Mê¶û iõLýû 12" },
+      { name: "i_ð Mê¶û", number: "Mê¶û iõLýû 13" },
+      { name: "jûZú Mê¶û", number: "Mê¶û iõLýû 14" },
+      { name: "¤û^Ne Mê¶û", number: "Mê¶û iõLýû 15" },
+      { name: "jeò\ûi Mê¶û", number: "Mê¶û iõLýû 16" },
+      { name: "RM^Üû[ Mê¶û", number: "Mê¶û iõLýû 17" },
+      { name: "ùeûùhA Mê¶û", number: "Mê¶û iõLýû 18" }
     ],
     khandagiriCaves: [
-      { name: "ତତୋୱା ଗୁମ୍ଫା ୧", number: "ଗୁମ୍ଫା ନଂ. ୧" },
-      { name: "ତତୋୱା ଗୁମ୍ଫା ୨", number: "ଗୁମ୍ଫା ନଂ. ୨" },
-      { name: "ଅନନ୍ତ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୩" },
-      { name: "ତେନ୍ତୁଳି ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୪" },
-      { name: "ଖଣ୍ଡଗିରି ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୫" },
-      { name: "ଧ୍ୟାନଘର ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୬" },
-      { name: "ନବମୁନି ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୭" },
-      { name: "ବାରଭୁଜି ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୮" },
-      { name: "ତ୍ରିଶୂଳ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୯" },
-      { name: "ଅନାମ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୦" },
-      { name: "ଲଲାଟେନ୍ଦୁକେଶରୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୧" },
-      { name: "ରାଧାକୁଣ୍ଡ ନିକଟସ୍ଥ ଅନାମ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୨" },
-      { name: "ରାଧାକୁଣ୍ଡ ପରବର୍ତ୍ତୀ ଅନାମ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୩" },
-      { name: "ଏକାଦଶୀ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୪" },
-      { name: "ଗୁପ୍ତ ଗଙ୍ଗା ନିକଟସ୍ଥ ଅନାମ ଗୁମ୍ଫା", number: "ଗୁମ୍ଫା ନଂ. ୧୫" }
+      { name: "ZZßû Mê¶û-1", number: "Mê¶û iõLýû 1" },
+      { name: "ZZßû Mê¶û-2", number: "Mê¶û iõLýû 2" },
+      { name: "@^« Mê¶û", number: "Mê¶û iõLýû 3" },
+      { name: "ùZ«êkú Mê¶û", number: "Mê¶û iõLýû 4" },
+      { name: "LŠMòeò Mê¶û", number: "Mê¶û iõLýû 5" },
+      { name: "¤û^Ne Mê¶û", number: "Mê¶û iõLýû 6" },
+      { name: "^acê^ú Mê¶û", number: "Mê¶û iõLýû 7" },
+      { name: "aûebìRú Mê¶û", number: "Mê¶û iõLýû 8" },
+      { name: "Zòâgêk Mê¶û", number: "Mê¶û iõLýû 9" },
+      { name: "ùKøYiò ^ûc ^ûjó", number: "Mê¶û iõLýû 10" },
+      { name: "ffûùU¦êùKgeú Mê¶û", number: "Mê¶û iõLýû 11" },
+      { name: "ùKøYiò ^ûc ^ûjó", number: "Mê¶û iõLýû 12 eê 15" }
     ],
     references: [
       {
@@ -578,7 +576,7 @@ function App() {
     <div className="min-h-screen bg-stone-50">
       {/* Language Selector */}
       <div className="fixed top-4 right-4 z-50">
-        <div className="bg-white rounded-lg shadow-lg p-2">
+        <div className={`bg-white rounded-lg shadow-lg p-2 ${isOdia ? 'odia-font' : ''}`}>
           <div className="flex items-center space-x-2">
             <Globe className="w-4 h-4 text-amber-600" />
             <select 
@@ -592,7 +590,7 @@ function App() {
                   setOdiaPdfOpen(false);
                 }
               }}
-              className="border-none bg-transparent focus:outline-none cursor-pointer"
+              className={`border-none bg-transparent focus:outline-none cursor-pointer ${isOdia ? 'odia-font' : ''}`}
             >
               <option value="en">English</option>
               <option value="hi">हिन्दी</option>
@@ -604,14 +602,14 @@ function App() {
 
       {/* Hero Section */}
       <div 
-        className="h-screen relative bg-cover bg-center"
+        className={`h-screen relative bg-cover bg-center ${isOdia ? 'odia-font' : ''}`}
         style={{
           backgroundImage: 'url("https://resonancemedia.co.in.smmedia.co.in/wp-content/uploads/2025/02/2-Ranigumpha-Udayagiri-scaled.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-          {!isOdia && (
+          {(
             <>
               <h1 className="text-5xl font-bold mb-4 text-center px-4">{currentContent.title}</h1>
               <p className="text-xl mb-8 text-center px-4">{currentContent.subtitle}</p>
@@ -631,7 +629,7 @@ function App() {
       </div>
 
       {/* Main Content */}
-      <div id="main-content" className="max-w-7xl mx-auto px-4 py-16">
+      <div id="main-content" className={`max-w-7xl mx-auto px-4 py-16 ${isOdia ? 'odia-font' : ''}`}>
         {/* Video Section */}
         <div className="mb-16">
           <h2 className="text-2xl font-bold mb-6 text-center">{currentContent.exploreTitle}</h2>
@@ -642,23 +640,9 @@ function App() {
             </div>
           </div>
         </div>
-
-        {/* Inline Odia PDF viewer */}
-        {odiaPdfOpen && (
-          <div className="mb-16">
-            <h2 className="text-2xl font-bold mb-4 text-center">Odia Document</h2>
-            <div className="w-full h-[600px]">
-              <iframe
-                src={odiaPdfUrl}
-                className="w-full h-full border"
-                title="Odia PDF"
-              />
-            </div>
-          </div>
-        )}
         
         {/* Quick Info */}
-        {!isOdia && (
+        {(
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div className="bg-white p-6 rounded-lg shadow-md">
             <History className="w-8 h-8 mb-4 text-amber-600" />
@@ -703,7 +687,7 @@ function App() {
         </div>
 
          {/* Virtual Tour Section */}
-        <div className="bg-amber-100 rounded-lg shadow-lg p-8 mb-16 text-center" style={isOdia ? { opacity: 0.3, pointerEvents: 'none' } : {}}>
+        <div className="bg-amber-100 rounded-lg shadow-lg p-8 mb-16 text-center">
           <h2 className="text-3xl font-bold mb-4 text-gray-800">Explore the Temple Virtually</h2>
           <p className="text-lg text-gray-600 mb-6">Take an immersive 3D virtual tour of the magnificent Udaygiri from the comfort of your home.</p>
           <a 
@@ -717,7 +701,7 @@ function App() {
         </div>
 
         {/* Detailed Description */}
-        {!isOdia && (
+        {(
         <div className="prose prose-lg max-w-none mb-16">
           <h2 className="text-3xl font-bold mb-8">{currentContent.historicalOverview}</h2>
           {currentContent.historicalText.map((paragraph, index) => (
@@ -729,7 +713,7 @@ function App() {
         )}
 
         {/* Cave Details */}
-        {!isOdia && (
+        {(
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
           {/* Udayagiri Section */}
           <div className="bg-white p-8 rounded-lg shadow-md">
@@ -808,7 +792,7 @@ function App() {
         )}
 
         {/* References Section */}
-        {!isOdia && (
+        {(
         <div className="bg-white p-8 rounded-lg shadow-md mb-16">
           <div className="flex items-center mb-6">
             <Book className="w-6 h-6 text-amber-600 mr-3" />
@@ -827,7 +811,7 @@ function App() {
         )}
 
         {/* Contact Information */}
-        {!isOdia && (
+        {(
         <div className="bg-amber-50 p-8 rounded-lg">
           <h3 className="text-2xl font-bold mb-6">{currentContent.visitInfoTitle}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
